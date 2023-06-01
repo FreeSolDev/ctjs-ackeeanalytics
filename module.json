@@ -1,0 +1,29 @@
+{
+  "main": {
+    "name": "Ackee",
+    "tagline": "Ackee.js Analytics for ct.js",
+    "version": "0.0.1",
+    "packageName": "ackeejs",
+    "authors": [{
+      "name": "FreeSolDev"
+    }],
+    "categories": [
+      "analytics"
+    ]
+  },
+  "fields":[
+    {
+    "name": "Host",
+    "help": "The url of the Host server",
+    "default": "https://analytics-zero.netlify.app",
+    "type": "text",
+    "key": "host"
+  },
+  {
+  "name": "Target",
+  "help": "The Website ID",
+  "default": "650263f5-277e-460b-bdc5-c977e26ca3f8",
+  "type": "text",
+  "key": "target"
+ }
+]}
